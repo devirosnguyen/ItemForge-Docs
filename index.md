@@ -17,7 +17,7 @@ the **Inventory**, **Inventory Interaction** and **Inventory Equipment Visuals**
 crafting): the interaction component binds the default keys by itself. A Blueprint child of `BP_ItemForge_QuickStartCharacter` takes
 your mesh and starting items.
 
-1. Install it from Fab (the launcher installs it into the engine, under `Engine/Plugins/Fab`), then enable **ItemForge**
+1. Install it from Fab (the launcher installs it into the engine's `Engine/Plugins` folder), then enable **ItemForge**
    in **Edit -> Plugins** and restart the editor. A copy in `<YourProject>/Plugins/ItemForge` works too.
 2. Add an **Inventory** component (`UIFInventoryComponent`) to your player's pawn or controller. It starts with one 8x6 grid
    named `Backpack`; add containers in **Containers**: more grids, or slots for equipment.
